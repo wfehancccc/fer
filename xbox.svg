@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624 540" width="624" height="540" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Xbox controller</title>
+  <desc id="dsc">Front view of a white Xbox Series X|S controller with a black face plate, D-pad, dual analog sticks, colour-coded ABXY buttons and a green Xbox logo button.</desc>
+
+  <defs>
+    <radialGradient id="shell" cx="0.42" cy="0.05" r="0.95">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#eef0f4"/>
+      <stop offset="1" stop-color="#c0c6cf"/>
+    </radialGradient>
+
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#343941"/>
+      <stop offset="0.55" stop-color="#24282e"/>
+      <stop offset="1" stop-color="#14171b"/>
+    </linearGradient>
+
+    <radialGradient id="faceVig" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.5"/>
+    </radialGradient>
+
+    <linearGradient id="stick" x1="0.12" y1="0" x2="0.88" y2="1">
+      <stop offset="0" stop-color="#767f8c"/>
+      <stop offset="0.35" stop-color="#3a414a"/>
+      <stop offset="0.75" stop-color="#20242a"/>
+      <stop offset="1" stop-color="#121417"/>
+    </linearGradient>
+
+    <linearGradient id="dpad" x1="0.05" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#7e8895"/>
+      <stop offset="0.25" stop-color="#5d6672"/>
+      <stop offset="0.6" stop-color="#343b43"/>
+      <stop offset="1" stop-color="#171a1e"/>
+    </linearGradient>
+
+    <radialGradient id="btn" cx="0.36" cy="0.28" r="0.92">
+      <stop offset="0" stop-color="#59616c"/>
+      <stop offset="0.55" stop-color="#2c3037"/>
+      <stop offset="1" stop-color="#131619"/>
+    </radialGradient>
+
+    <radialGradient id="xb" cx="0.34" cy="0.24" r="0.9">
+      <stop offset="0" stop-color="#d3f47a"/>
+      <stop offset="0.42" stop-color="#96cf3d"/>
+      <stop offset="1" stop-color="#4a740d"/>
+    </radialGradient>
+
+    <linearGradient id="trig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a515b"/>
+      <stop offset="0.35" stop-color="#2b3037"/>
+      <stop offset="1" stop-color="#111417"/>
+    </linearGradient>
+
+    <pattern id="grip" width="11" height="11" patternUnits="userSpaceOnUse">
+      <circle cx="5.5" cy="5.5" r="1.25" fill="#ffffff" fill-opacity="0.055"/>
+    </pattern>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+    <!-- letterforms, drawn as strokes so no font is required -->
+    <g id="lY" fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -30 -34 L 0 2 L 30 -34"/>
+      <path d="M 0 2 L 0 36"/>
+    </g>
+    <g id="lB" fill="none" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -20 -35 L -20 36"/>
+      <path d="M -20 -35 L 4 -35 A 17.5 17.5 0 0 1 4 0 L -20 0"/>
+      <path d="M -20 0 L 8 0 A 18 18 0 0 1 8 36 L -20 36"/>
+    </g>
+    <g id="lA" fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -30 36 L 0 -35 L 30 36"/>
+      <path d="M -20 12 L 20 12"/>
+    </g>
+    <g id="lX" fill="none" stroke-width="14" stroke-linecap="round">
+      <path d="M -28 -35 L 28 35"/>
+      <path d="M 28 -35 L -28 35"/>
+    </g>
+
+    <path id="shellPath" d="M 400 132
+      C 330 132 268 142 232 166
+      C 198 188 158 236 144 292
+      C 132 342 148 388 164 440
+      C 178 484 196 534 226 552
+      C 260 572 300 552 320 508
+      C 336 472 350 442 376 426
+      C 390 418 410 418 424 426
+      C 450 442 464 472 480 508
+      C 500 552 540 572 574 552
+      C 604 534 622 484 636 440
+      C 652 388 668 342 656 292
+      C 642 236 602 188 568 166
+      C 532 142 470 132 400 132 Z"/>
+
+    <path id="facePath" d="M 400 166
+      C 334 166 280 176 248 200
+      C 216 222 184 258 172 300
+      C 162 336 174 372 186 414
+      C 198 456 212 496 232 512
+      C 252 528 278 514 292 486
+      C 306 458 320 428 346 412
+      C 360 404 440 404 454 412
+      C 480 428 494 458 508 486
+      C 522 514 548 528 568 512
+      C 588 496 602 456 614 414
+      C 626 372 638 336 628 300
+      C 616 258 584 222 552 200
+      C 520 176 466 166 400 166 Z"/>
+
+    <clipPath id="faceClip">
+      <use href="#facePath"/>
+    </clipPath>
+  </defs>
+
+  <g transform="translate(-88 -55.5)">
+    <g transform="translate(400 0) scale(1.1 1) translate(-400 0)">
+
+      <!-- ======== shoulders / triggers (behind the shell) ======== -->
+      <g id="shoulderL">
+        <path d="M 230 148 C 240 112 280 95 330 93 C 352 92 366 100 366 116
+                 L 364 132 C 310 133 264 144 236 164 Z" fill="url(#trig)"/>
+        <path d="M 238 140 C 248 106 282 96 330 94" fill="none" stroke="#b6bec8"
+              stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"/>
+        <path d="M 234 152 C 244 118 280 104 332 100" fill="none" stroke="#080a0d"
+              stroke-opacity="0.5" stroke-width="2.6" stroke-linecap="round"/>
+      </g>
+      <use href="#shoulderL" transform="translate(800 0) scale(-1 1)"/>
+
+      <!-- ======== white shell ======== -->
+      <use href="#shellPath" fill="url(#shell)"/>
+      <path d="M 232 166 C 268 142 330 132 400 132 C 470 132 532 142 568 166
+               C 520 150 460 142 400 142 C 340 142 280 150 232 166 Z"
+            fill="#ffffff" fill-opacity="0.6"/>
+      <use href="#shellPath" fill="none" stroke="#8a919b" stroke-opacity="0.45" stroke-width="1.5"/>
+
+      <!-- ======== black face plate ======== -->
+      <use href="#facePath" fill="none" stroke="#0a0c0f" stroke-opacity="0.22" stroke-width="9" filter="url(#soft)"/>
+      <use href="#facePath" fill="url(#face)"/>
+      <g clip-path="url(#faceClip)">
+        <rect x="160" y="150" width="480" height="440" fill="url(#grip)"/>
+        <use href="#facePath" fill="url(#faceVig)"/>
+      </g>
+      <use href="#facePath" fill="none" stroke="#0c0f12" stroke-opacity="0.65" stroke-width="2"/>
+
+      <!-- ======== left analog stick ======== -->
+      <g transform="translate(318 252) scale(0.9091 1)">
+        <circle r="35" fill="#0d1013" fill-opacity="0.6"/>
+        <circle r="32" fill="#1a1e23"/>
+        <circle r="29" fill="url(#stick)"/>
+        <path d="M -24.5 -11.4 A 27 27 0 0 1 -9.2 -25.4" fill="none" stroke="#d2dae4"
+              stroke-opacity="0.4" stroke-width="3" stroke-linecap="round"/>
+        <circle r="17" fill="#1e2228"/>
+        <circle r="17" fill="none" stroke="#090c0f" stroke-opacity="0.9" stroke-width="2.4"/>
+        <path d="M -12 -10 A 16 16 0 0 1 0 -16" fill="none" stroke="#07090c" stroke-opacity="0.5" stroke-width="2.6" stroke-linecap="round"/>
+      </g>
+
+      <!-- ======== right analog stick ======== -->
+      <g transform="translate(488 372) scale(0.9091 1)">
+        <circle r="35" fill="#0d1013" fill-opacity="0.6"/>
+        <circle r="32" fill="#1a1e23"/>
+        <circle r="29" fill="url(#stick)"/>
+        <path d="M -24.5 -11.4 A 27 27 0 0 1 -9.2 -25.4" fill="none" stroke="#d2dae4"
+              stroke-opacity="0.4" stroke-width="3" stroke-linecap="round"/>
+        <circle r="17" fill="#1e2228"/>
+        <circle r="17" fill="none" stroke="#090c0f" stroke-opacity="0.9" stroke-width="2.4"/>
+        <path d="M -12 -10 A 16 16 0 0 1 0 -16" fill="none" stroke="#07090c" stroke-opacity="0.5" stroke-width="2.6" stroke-linecap="round"/>
+      </g>
+
+      <!-- ======== D-pad ======== -->
+      <g transform="translate(244 332) scale(0.9091 1)">
+        <path d="M -7.5 -46 H 7.5 A 6 6 0 0 1 13.5 -39.5 V -13.5 H 39.5 A 6 6 0 0 1 46 -7.5
+                 V 7.5 A 6 6 0 0 1 39.5 13.5 H 13.5 V 39.5 A 6 6 0 0 1 7.5 46 H -7.5
+                 A 6 6 0 0 1 -13.5 39.5 V 13.5 H -39.5 A 6 6 0 0 1 -46 7.5 V -7.5
+                 A 6 6 0 0 1 -39.5 -13.5 H -13.5 V -39.5 A 6 6 0 0 1 -7.5 -46 Z"
+              fill="url(#dpad)" stroke="#0d1013" stroke-width="1.4" stroke-linejoin="round"/>
+        <path d="M -7 -45.4 L 7 -45.4" stroke="#c2cad4" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round"/>
+        <path d="M -45.4 -7 L -45.4 7" stroke="#c2cad4" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round"/>
+        <path d="M -7 -45.4 L 7 -45.4" stroke="#d4dce6" stroke-opacity="0.6" stroke-width="2.2" stroke-linecap="round"/>
+        <circle r="12" fill="#1e2228" fill-opacity="0.9"/>
+        <circle r="12" fill="none" stroke="#0d1013" stroke-opacity="0.7" stroke-width="1.4"/>
+        <path d="M -26 0 L 26 0 M 0 -26 L 0 26" stroke="#0d1013" stroke-opacity="0.4" stroke-width="1.2"/>
+      </g>
+
+      <!-- ======== ABXY ======== -->
+      <g transform="translate(532 220) scale(0.9091 1)">
+        <circle r="21" fill="url(#btn)" stroke="#0d1013" stroke-width="1.4"/>
+        <circle r="21" fill="none" stroke="#f5c518" stroke-opacity="0.3" stroke-width="2.6"/>
+        <use href="#lY" transform="scale(0.37)" stroke="#f7cd2e"/>
+      </g>
+      <g transform="translate(574 262) scale(0.9091 1)">
+        <circle r="21" fill="url(#btn)" stroke="#0d1013" stroke-width="1.4"/>
+        <circle r="21" fill="none" stroke="#e8383d" stroke-opacity="0.3" stroke-width="2.6"/>
+        <use href="#lB" transform="scale(0.37)" stroke="#e8383d"/>
+      </g>
+      <g transform="translate(532 304) scale(0.9091 1)">
+        <circle r="21" fill="url(#btn)" stroke="#0d1013" stroke-width="1.4"/>
+        <circle r="21" fill="none" stroke="#6cc44a" stroke-opacity="0.3" stroke-width="2.6"/>
+        <use href="#lA" transform="scale(0.37)" stroke="#6cc44a"/>
+      </g>
+      <g transform="translate(490 262) scale(0.9091 1)">
+        <circle r="21" fill="url(#btn)" stroke="#0d1013" stroke-width="1.4"/>
+        <circle r="21" fill="none" stroke="#3a7bd5" stroke-opacity="0.3" stroke-width="2.6"/>
+        <use href="#lX" transform="scale(0.37)" stroke="#4d8ae0"/>
+      </g>
+
+      <!-- ======== Xbox logo button ======== -->
+      <g transform="translate(400 246) scale(0.9091 1)">
+        <circle r="28" fill="#0d1013" fill-opacity="0.6"/>
+        <circle r="26" fill="#171b20"/>
+        <circle r="26" fill="none" stroke="#090b0e" stroke-width="1.5"/>
+        <circle r="21" fill="url(#xb)"/>
+        <g fill="#171b20">
+          <path d="M -24 -24 C -13 -17 17 13 24 24 L 13 13 C 9.5 16.5 -16.5 -9.5 -13 -13 Z"/>
+          <path d="M -24 -24 C -13 -17 17 13 24 24 L 13 13 C 9.5 16.5 -16.5 -9.5 -13 -13 Z"
+                transform="rotate(90)"/>
+        </g>
+        <path d="M -20 -8 A 21 21 0 0 1 -8 -20" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="2.4" stroke-linecap="round"/>
+      </g>
+
+      <!-- ======== centre buttons ======== -->
+      <g transform="translate(340 302) scale(0.9091 1)">
+        <rect x="-14" y="-12" width="19" height="19" rx="5" fill="none" stroke="#828a95" stroke-width="2.4"/>
+        <rect x="-5" y="-3" width="19" height="19" rx="5" fill="none" stroke="#828a95" stroke-width="2.4"/>
+      </g>
+      <g transform="translate(460 302) scale(0.9091 1)" stroke="#828a95" stroke-width="2.4" stroke-linecap="round">
+        <line x1="-10" y1="-8" x2="10" y2="-8"/>
+        <line x1="-10" y1="0" x2="10" y2="0"/>
+        <line x1="-10" y1="8" x2="10" y2="8"/>
+      </g>
+      <g transform="translate(400 320) scale(0.9091 1)">
+        <circle r="13" fill="#1a1e23" stroke="#0d1013" stroke-width="1.3"/>
+        <path d="M 0 5 L 0 -5 M -4 -1.5 L 0 -5.5 L 4 -1.5" fill="none" stroke="#828a95"
+              stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <!-- ======== rim light along the top edge ======== -->
+      <path d="M 232 166 C 268 142 330 132 400 132 C 470 132 532 142 568 166"
+            fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
